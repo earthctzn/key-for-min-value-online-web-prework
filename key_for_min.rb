@@ -8,3 +8,4 @@ else minval_hash = name_hash.sort_by{|key, value| value}
   hash2=minval_hash[0]
  hash2 [0]
 end
+end
