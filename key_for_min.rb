@@ -4,8 +4,8 @@
 def key_for_min_value(name_hash)
   if name_hash.empty?
     return nil 
-else minval_hash = name_hash.sort_by{|key, value| value} 
-  hash=minval_hash[0]
- hash [0]
+else hash = name_hash.sort_by{|key, value| value} 
+  minval_hash=hash[0]
+ minval_hash[0]
 end
 end
